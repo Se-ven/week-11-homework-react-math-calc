@@ -65,6 +65,8 @@ class Calculator extends React.Component {
             case '/':
                 result = parseInt(firstOperand) / parseInt(secondOperand)
                 break;
+            default:
+                result = 0
         }
 
         this.setState({
